@@ -11,7 +11,7 @@
 pthread_mutex_t mutex;
 
 void *add(void *input) {
-  int a = *(int *)input;
+  int a = 0;
 
   for (int i = 0; i < 1e9; i++) {
     a += 1;
